@@ -1,0 +1,598 @@
+
+{
+  "header": {
+    "reportVersion": 5,
+    "event": "Exception",
+    "trigger": "Exception",
+    "filename": "report.json",
+    "dumpEventTime": "2025-02-27T00:29:02Z",
+    "dumpEventTimeStamp": "1740590942016",
+    "processId": 12056,
+    "threadId": 0,
+    "cwd": "C:\\Users\\adelia\\Desktop\\belajar-node.js\\belajar-node.js-dasar",
+    "commandLine": [
+      "C:\\node.exe",
+      "16.report.mjs"
+    ],
+    "nodejsVersion": "v22.13.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "acorn": "8.14.0",
+      "ada": "2.9.2",
+      "amaro": "0.2.0",
+      "ares": "1.34.4",
+      "brotli": "1.1.0",
+      "cjs_module_lexer": "1.4.1",
+      "cldr": "46.0",
+      "icu": "76.1",
+      "llhttp": "9.2.1",
+      "modules": "127",
+      "napi": "9",
+      "nbytes": "0.1.1",
+      "ncrypto": "0.0.1",
+      "nghttp2": "1.64.0",
+      "nghttp3": "1.6.0",
+      "ngtcp2": "1.9.1",
+      "node": "22.13.1",
+      "openssl": "3.0.15+quic",
+      "simdjson": "3.10.1",
+      "simdutf": "5.6.4",
+      "sqlite": "3.47.2",
+      "tz": "2024b",
+      "undici": "6.21.1",
+      "unicode": "16.0",
+      "uv": "1.49.2",
+      "uvwasi": "0.0.21",
+      "v8": "12.4.254.21-node.22",
+      "zlib": "1.3.0.1-motley-82a5fec"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Jod",
+      "headersUrl": "https://nodejs.org/download/release/v22.13.1/node-v22.13.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v22.13.1/node-v22.13.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v22.13.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19045",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz",
+        "speed": 2195,
+        "user": 2365109,
+        "nice": 0,
+        "sys": 1751359,
+        "idle": 16003921,
+        "irq": 186562
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz",
+        "speed": 2195,
+        "user": 2247687,
+        "nice": 0,
+        "sys": 1339218,
+        "idle": 16533312,
+        "irq": 37171
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz",
+        "speed": 2195,
+        "user": 2686734,
+        "nice": 0,
+        "sys": 1441015,
+        "idle": 15992468,
+        "irq": 26375
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-5200U CPU @ 2.20GHz",
+        "speed": 2195,
+        "user": 2502140,
+        "nice": 0,
+        "sys": 1126562,
+        "idle": 16491500,
+        "irq": 18578
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "d0:7e:35:6a:bb:2a",
+        "address": "fe80::e7a8:f62e:e6b8:504e",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 5
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "d0:7e:35:6a:bb:2a",
+        "address": "192.168.1.11",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-PBJ4KL5"
+  },
+  "javascriptStack": {
+    "message": "Error: upsss.",
+    "stack": [
+      "at sampleError (file:///C:/Users/adelia/Desktop/belajar-node.js/belajar-node.js-dasar/16.report.mjs:12:11)",
+      "at file:///C:/Users/adelia/Desktop/belajar-node.js/belajar-node.js-dasar/16.report.mjs:15:2",
+      "at ModuleJob.run (node:internal/modules/esm/module_job:271:25)",
+      "at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)"
+    ],
+    "errorProperties": {
+    }
+  },
+  "javascriptHeap": {
+    "totalMemory": 6041600,
+    "executableMemory": 262144,
+    "totalCommittedMemory": 6041600,
+    "availableMemory": 2151911560,
+    "totalGlobalHandlesMemory": 8192,
+    "usedGlobalHandlesMemory": 2976,
+    "usedMemory": 5127024,
+    "memoryLimit": 2156134400,
+    "mallocedMemory": 163912,
+    "externalMemory": 1790690,
+    "peakMallocedMemory": 139536,
+    "nativeContextCount": 2,
+    "detachedContextCount": 0,
+    "doesZapGarbage": 0,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1030912,
+        "used": 793896,
+        "available": 237016
+      },
+      "old_space": {
+        "memorySize": 3403776,
+        "committedMemory": 3403776,
+        "capacity": 3343008,
+        "used": 3105952,
+        "available": 237056
+      },
+      "code_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 245728,
+        "used": 53184,
+        "available": 192544
+      },
+      "shared_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "trusted_space": {
+        "memorySize": 1056768,
+        "committedMemory": 1056768,
+        "capacity": 1033064,
+        "used": 911832,
+        "available": 121232
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1030912,
+        "used": 0,
+        "available": 1030912
+      },
+      "large_object_space": {
+        "memorySize": 270336,
+        "committedMemory": 270336,
+        "capacity": 262160,
+        "used": 262160,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "shared_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "trusted_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      }
+    }
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff7a1adf0db",
+      "symbol": "node::GetNodeReport+14091"
+    },
+    {
+      "pc": "0x00007ff7a1ae35ad",
+      "symbol": "node::TriggerNodeReport+3661"
+    },
+    {
+      "pc": "0x00007ff7a1ae2557",
+      "symbol": "node::TriggerNodeReport+3463"
+    },
+    {
+      "pc": "0x00007ff7a1ae1811",
+      "symbol": "node::TriggerNodeReport+65"
+    },
+    {
+      "pc": "0x00007ff7a1b79c50",
+      "symbol": "node::OnFatalError+3600"
+    },
+    {
+      "pc": "0x00007ff7a1b7b18d",
+      "symbol": "node::OnFatalError+9037"
+    },
+    {
+      "pc": "0x00007ff7a1b7ae3c",
+      "symbol": "node::OnFatalError+8188"
+    },
+    {
+      "pc": "0x00007ff7a2716488",
+      "symbol": "v8::PropertyDescriptor::writable+80280"
+    },
+    {
+      "pc": "0x00007ff7a2714742",
+      "symbol": "v8::PropertyDescriptor::writable+72786"
+    },
+    {
+      "pc": "0x00007ff7a2753d63",
+      "symbol": "v8::PropertyDescriptor::writable+332403"
+    },
+    {
+      "pc": "0x00007ff7a283335c",
+      "symbol": "v8::PropertyDescriptor::writable+1247340"
+    },
+    {
+      "pc": "0x00007ff7a2743e33",
+      "symbol": "v8::PropertyDescriptor::writable+267075"
+    },
+    {
+      "pc": "0x00007ff7a271223b",
+      "symbol": "v8::PropertyDescriptor::writable+63307"
+    },
+    {
+      "pc": "0x00007ff7a25bd70d",
+      "symbol": "v8::Isolate::NumberOfHeapSpaces+2269"
+    },
+    {
+      "pc": "0x00007ff7a25bd80b",
+      "symbol": "v8::Isolate::NumberOfHeapSpaces+2523"
+    },
+    {
+      "pc": "0x00007ff7a25be544",
+      "symbol": "v8::Isolate::NumberOfHeapSpaces+5908"
+    },
+    {
+      "pc": "0x00007ff7a2594f27",
+      "symbol": "v8::base::CPU::has_sse41+1559"
+    },
+    {
+      "pc": "0x00007ff7a2594c40",
+      "symbol": "v8::base::CPU::has_sse41+816"
+    },
+    {
+      "pc": "0x00007ff7a1c53562",
+      "symbol": "node::CallbackScope::~CallbackScope+530"
+    },
+    {
+      "pc": "0x00007ff7a1c533de",
+      "symbol": "node::CallbackScope::~CallbackScope+142"
+    },
+    {
+      "pc": "0x00007ff7a1b56426",
+      "symbol": "EVP_CIPHER_CTX_get_cipher_data+389542"
+    },
+    {
+      "pc": "0x00007ff7a1b6fa25",
+      "symbol": "v8::base::CPU::num_virtual_address_bits+54453"
+    },
+    {
+      "pc": "0x00007ff7a1c867ca",
+      "symbol": "uv_timer_stop+1322"
+    },
+    {
+      "pc": "0x00007ff7a1c829eb",
+      "symbol": "uv_update_time+475"
+    },
+    {
+      "pc": "0x00007ff7a1c82554",
+      "symbol": "uv_run+900"
+    },
+    {
+      "pc": "0x00007ff7a1c52b55",
+      "symbol": "node::SpinEventLoop+405"
+    },
+    {
+      "pc": "0x00007ff7a1b23d2a",
+      "symbol": "EVP_CIPHER_CTX_get_cipher_data+182954"
+    },
+    {
+      "pc": "0x00007ff7a1bc0c0c",
+      "symbol": "node::Start+4796"
+    },
+    {
+      "pc": "0x00007ff7a1bbf977",
+      "symbol": "node::Start+39"
+    },
+    {
+      "pc": "0x00007ff7a18de4bc",
+      "symbol": "AES_cbc_encrypt+154348"
+    },
+    {
+      "pc": "0x00007ff7a339a950",
+      "symbol": "inflateValidate+29136"
+    },
+    {
+      "pc": "0x00007ffc911f7374",
+      "symbol": "BaseThreadInitThunk+20"
+    },
+    {
+      "pc": "0x00007ffc919bcc91",
+      "symbol": "RtlUserThreadStart+33"
+    }
+  ],
+  "resourceUsage": {
+    "free_memory": 789532672,
+    "total_memory": 4211261440,
+    "rss": 30437376,
+    "available_memory": 789532672,
+    "userCpuSeconds": 0.109,
+    "kernelCpuSeconds": 0.062,
+    "cpuConsumptionPercent": 17.1,
+    "userCpuConsumptionPercent": 10.9,
+    "kernelCpuConsumptionPercent": 6.2,
+    "maxRss": 51544064,
+    "pageFaults": {
+      "IORequired": 13192,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 1,
+      "writes": 4
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000001dc0a7e2f80"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00007ff7a660f6f0"
+    },
+    {
+      "type": "timer",
+      "is_active": false,
+      "is_referenced": false,
+      "address": "0x000001dc0c27b698",
+      "repeat": 0,
+      "firesInMsFromNow": -108543863,
+      "expired": true
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000001dc0c27b738"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x000001dc0c27b7b0"
+    },
+    {
+      "type": "prepare",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000001dc0c27b828"
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000001dc0c27b8a0"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000001dc0c27b918"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x000001dc0a7c5af0",
+      "width": 64,
+      "height": 10,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": true
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x000001dc0c2f3850",
+      "signum": 28,
+      "signal": "SIGWINCH"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x000001dc0a7c6120",
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": false
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x000001dc0a7c54c0",
+      "width": 64,
+      "height": 10,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": true
+    },
+    {
+      "type": "loop",
+      "is_active": false,
+      "address": "0x00007ff7a689bcf0",
+      "loopIdleTimeSeconds": 0.0113431
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\adelia\\AppData\\Roaming",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_5036_SIWMYWNCNHAPDJYW",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-PBJ4KL5",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\adelia",
+    "LOCALAPPDATA": "C:\\Users\\adelia\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-PBJ4KL5",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\adelia\\OneDrive",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\;C:\\Users\\adelia\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\adelia\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\adelia\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 61 Stepping 4, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3d04",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PSModulePath": "C:\\Users\\adelia\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\adelia\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\adelia\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-PBJ4KL5",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-PBJ4KL5",
+    "USERNAME": "adelia",
+    "USERPROFILE": "C:\\Users\\adelia",
+    "windir": "C:\\Windows",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.97.2",
+    "LANG": "en_US.UTF-8",
+    "COLORTERM": "truecolor",
+    "GIT_ASKPASS": "c:\\Users\\adelia\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\adelia\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\adelia\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-1b6deaf315-sock",
+    "VSCODE_INJECTION": "1",
+    "VSCODE_NONCE": "c33153c2-82b5-424c-8328-38d14c7a4103",
+    "VSCODE_STABLE": "1"
+  },
+  "sharedObjects": [
+    "C:\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\ole32.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\SHELL32.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\dbgcore.DLL",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\SYSTEM32\\powrprof.dll",
+    "C:\\Windows\\SYSTEM32\\UMPDC.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\bcryptprimitives.dll",
+    "C:\\Windows\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\System32\\winrnr.dll"
+  ]
+}
